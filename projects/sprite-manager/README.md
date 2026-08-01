@@ -25,7 +25,9 @@ Original executable files (`.EXE`) are included only as historical archive artif
 
 They represent the actual compiled versions of the programs produced during the original development period and are provided for preservation and reference purposes. The source code remains the primary reference for understanding and rebuilding the project.
 
-## Source Encoding
+## File Encoding
 
-Original source files use the original DOS OEM character encoding.
+Original project files use the original DOS OEM character encoding.
 The graphical characters indicate CP437 encoding.
+
+Converted UTF-8 copies are provided separately for easier viewing on modern systems.

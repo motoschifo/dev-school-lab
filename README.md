@@ -40,10 +40,12 @@ Some documents describe technologies that are now obsolete. They are intentional
 
 Additional notes and explanations are provided separately rather than modifying the original material.
 
-## Source Encoding
+## File Encoding
 
-Original source files use the original DOS OEM character encoding.
+Original project files use the original DOS OEM character encoding.
 The graphical characters indicate CP437 encoding.
+
+Converted UTF-8 copies are provided separately for easier viewing on modern systems.
 
 
 ## Note

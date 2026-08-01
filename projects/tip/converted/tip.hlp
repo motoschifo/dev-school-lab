@@ -1,0 +1,658 @@
+TIPv1.0
+
+*******************************************************************************
+ARGOMENTO: HELP GENERALE
+
+╔══════════════════════════════════════╗
+║   HELP ON-LINE SUL PROGRAMMA T.I.P.  ║
+╚══════════════════════════════════════╝
+
+Benvenuti nel programma  T.I.P.  (Text Image Pro_
+cessor).
+
+Esso consente di disegnare una  schermata in  mo_
+dalità  testo 80 colonne  per 24 righe,  con i 16
+colori disponibili per il primo piano e gli altri
+16 per lo sfondo (di cui 8 lampeggianti).
+
+Il programma presenta una linea  di stato in fon_
+do allo schermo (riga 25) che informa sul  numero
+di  pagina, il numero di riga, quello di colonna,
+il colore di primo piano e di sfondo, il caratte_
+re selezionato, lo  stato dell' immagine (modifi_
+cata o no), lo stato dei tasti speciali (NumLock,
+ScrollLock,  CapsLock,  Insert,  Shift  Sinistro,
+Control, Alt, Shift Destro) e l' ora  espressa in
+HH:MM.
+
+Premendo ESCAPE si  richiama il  menu  principale
+(vedi l' argomento <<MENU PRINCIPALE>>) mentre con F1
+si  apre la  finestra  di aiuto  in  linea  (vedi
+<<USARE L'HELP>>).
+
+Oltre a questi due, si possono premere i tasti:
+
+  Su, Sinistra,       per spostarsi di una co_
+                      lonna o Giù, Destra, di
+                      una riga
+  Pagina Su,          per spostarsi alla prima
+                      riga
+  Pagina Giù,         per spostarsi all' ultima
+                      riga
+  Home,               per spostarsi alla prima
+                      colonna
+  End,                per spostarsi all' ultima
+                      colonna
+  Ctrl-Pagina Su,     per avanzare di una
+                      schermata
+  Ctrl-Pagina Giù,    per andara alla schermata
+                      precedente
+  Ctrl-Home,          per andara alla prima
+                      schermata
+  Ctrl-End,           per andara all' ultima pa_
+                      gina
+  <altro tasto>       per scriverlo nella pagina
+                      corrente
+
+Si possono inoltre chiamare diversi menu  premen_
+do  una combinazione  Ctrl-tasto o  Shift-tasto o
+Alt-tasto.
+
+L' elenco è disponibile premendo il tasto Shift e
+tenendolo per un certo periodo di tempo: apparirà
+una  finestra che  resterà  aperta fino a che  il
+tasto non verrà rilasciato (la stessa cosa accade
+per Alt e Ctrl).
+
+Per modificare il  tempo di  attesa tra la  prima
+pressione  e  la  visualizzazione della finestra,
+occorre  modificare  le  opzioni  speciali  (vedi
+<<MODIFICA OPZIONI SPECIALI>>).
+
+E' possibile  utilizzare sia la  tastiera sia  il
+mouse; i comandi per il mouse sono:
+
+  Pulsante sinistro,      esegue un' operazione
+                          (se in un menu o in una
+                          scelta sposta anche l'
+                          evidenziatore)
+  Pulsante destro         annulla l' operazione
+                          (è equivalente al tasto
+                          ESCAPE)
+
+Oltre ad F1 si possono  premere anche altri tasti
+per entrare nell' help:
+
+  Alt-F1,             argomento precedente
+  Ctrl-F1,            help specifico
+  Shift-F1            indice degli argomenti
+
+Vedi anche: <<INDICE>>
+            <<USARE L'HELP>>
+            <<MENU PRINCIPALE>>
+            <<MODIFICA OPZIONI SPECIALI>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: CAMBIA DIRECTORY
+
+╔══════════════════════╗
+║   CAMBIA DIRECTORY   ║
+╚══════════════════════╝
+
+Per  cambiare  la  directory  (o disco)  corrente
+basta digitare nello spazio riservato per l' edi_
+ting  il drive/percorso  desiderato: se  esso non
+esiste non ci sarà  nessuna  modifica del path (e
+informato l' utente  con un messaggio di errore),
+altrimenti si eseguirà l' operazione senza  alcun
+messaggio.
+
+Per  facilitare nella scelta della sotto-directo_
+ry  è presente  una  lista  della  struttura  del
+disco  di   default:   premendo  i  tasti  Tab  o
+Shift-Tab è possibile spostarsi tra le  due  zone
+e, per scorrere la lista  si possono utilizzare i
+soliti tasti di scorrimento del  cursore (freccia
+su, giù, ecc., pagina su, pagina giù, home, ecc.)
+oppure  digitare il le prime lettere del nome per
+una ricerca veloce.
+
+Per  confermare  si  utilizza RETURN,  mentre per
+annullare ESCAPE.
+
+E' abilitato anche l' utilizzo del mouse.
+
+E'  sempre  possibile  richiamare altre schermate
+di aiuto, premendo i tasti F1, SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU FILES>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: IMMISSIONE GENERICA
+
+╔═════════════════════════╗
+║   IMMISSIONE GENERICA   ║
+╚═════════════════════════╝
+
+Attende l' input da  tastiera di un testo o di un
+percorso:  se l' imissione  supera  la  lunghezza
+consentita,  si  potrà   continuare  a  digitarla
+continuando  a scrivere: il  testo scorrerà verso
+destra  e sarà  possibile  rivederlo  premendo il
+tasto Freccia Sinistra. Se si  ha familiarità con
+l'  ambiente  integrato (I.D.E.) del Turbo Pascal
+(dalla versione 5.5 in avanti) si noterà la forte
+somiglianza.
+
+Due  frecce laterali segnalano se il testo conti_
+nua  oltre i limiti  destro e sinistro  del campo
+visualizzato sul video.
+
+Editare il campo premendo i tasti:
+
+  Destra,        spostamento verso destra
+  Sinistra,      spostamento verso sinistra
+  Home,          spostamento alla prima colonna
+  End,           spostamento alla prima riga
+  Return,        conferma l' immissione
+  Escape,        annulla la digitazione
+
+E'  sempre  possibile  richiamare altre schermate
+di aiuto, premendo i tasti F1, SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Il mouse non  viene utilizzato per una immissione
+di questo tipo.
+
+Vedi anche: <<INDICE>>
+            <<HELP GENERALE>>
+            <<IMMISSIONE NOME FILE>>
+            <<IMMISSIONE PERCORSO>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: MENU ASCII
+
+╔════════════════╗
+║   MENU ASCII   ║
+╚════════════════╝
+
+Con i tasti  di movimento  del cursore e il tasto
+RETURN si può scegliere il  carattere da stampare
+fra i 256 che il DOS mette a disposizione.
+
+Si  può  utilizzare  anche il mouse,  premendo il
+pulsante sinistro sul carattere evidenziato.
+
+Per uscire da questo menu senza effettuare alcuna
+scelta occorre  premere il tasto ESCAPE oppure il
+pulsante destro del mouse.
+
+Per  una ricerca veloce del tasto, basta premerlo
+da tastiera; se ad esempio si preme il tasto 'A',
+l' evidenziatore si sposterà sulla lettera A.
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti  F1, SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU CORNICE>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: MENU CORNICE
+
+╔══════════════════╗
+║   MENU CORNICE   ║
+╚══════════════════╝
+
+Con i  tasti di  movimento del cursore e il tasto
+RETURN si può  scegliere il carattere particolare
+da stampare fra quelli che formano una cornice.
+
+Si  può  utilizzare  anche il  mouse, premendo il
+pulsante sinistro sul carattere evidenziato.
+
+Per uscire da questo menu senza effettuare alcuna
+scelta occorre premere il tasto  ESCAPE oppure il
+pulsante destro del mouse.
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU ASCII>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: DEFINISCI BLOCCO
+
+╔══════════════════════╗
+║   DEFINISCI BLOCCO   ║
+╚══════════════════════╝
+
+Per  effettuare le  operazioni sui blocchi, quali
+ad esempio lo spostamento, la copia, l' inversio_
+ne, il  negativo, il  salvataggio, il ripristino,
+ecc., è  necessario  prima  definirne i contorni,
+ossia  le  coordinate  degli angoli in alto a si_
+nistra (inizio) e in basso a destra (fine).
+
+Per fare questo si possono scegliere le opzioni:
+<<DEFINISCI INIZIO BLOCCO>>, <<DEFINISCI FINE BLOCCO>>
+oppure <<DEFINISCI BLOCCO>> del <<MENU BLOCCHI>>.
+
+Si può usare  indifferentemente sia  il mouse sia
+la tastiera.  Con  il  primo  dispositivo  è suf_
+ficiente  premere il pulsante  sinistro nel punto
+di inizio del bordo del blocco, tenerlo premuto e
+rilasciarlo alle coordinate finali.
+
+Se si  utilizza la tastiera, premere i tasti cur_
+sore per variare le  dimensioni del blocco: con i
+tasti '1' e '2' si  cambia il punto di riferimen_
+to (inizio o fine).
+
+Per confermare  la definizione  premere RETURN (o
+il  pulsante  sinistro  del mouse),  mentre se si
+desidera  uscire senza effettuare nessuna scelta,
+occorre  premere il  tasto ESCAPE (o  il pulsante
+destro del mouse).
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i tasti  F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<HELP GENERALE>>
+            <<DEFINISCI INIZIO BLOCCO>>
+            <<DEFINISCI FINE BLOCCO>>
+            <<DEFINISCI BLOCCO>>
+            <<MENU ASCII>>
+            <<MENU BLOCCHI>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: COPIA BLOCCO
+
+╔══════════════════╗
+║   COPIA BLOCCO   ║
+╚══════════════════╝
+
+Per  copiare un blocco occorre innanzitutto defi_
+nirne  i contorni con una delle prime tre opzioni
+del <<MENU BLOCCHI>>.
+
+Una volta  fatto questo  si muove il blocco nella
+posizione  desiderata  e si  preme RETURN:  se si
+desiderano  effettuare  copie   multiple  si  può
+continuare con la sequenza  spostamento / RETURN,
+altrimenti si preme ESCAPE.
+
+E' consigliato  l' utilizzo  del mouse  per avere
+uno spostamento più rapido e deciso.
+
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<HELP GENERALE>>
+            <<MENU BLOCCHI>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: MUOVI BLOCCO
+
+╔══════════════════╗
+║   MUOVI BLOCCO   ║
+╚══════════════════╝
+
+Per  muovere un blocco occorre innanzitutto defi_
+nirne  i contorni con una delle prime tre opzioni
+del <<MENU BLOCCHI>>.
+
+Una volta  fatto questo  si muove il blocco nella
+posizione desiderata  e si  preme RETURN; la par_
+te che rimane vuota viene riempita di spazi dello
+stesso colore di primo piano/sfondo selezionati.
+
+Per  annullare  l' operazione  premere ESCAPE: la
+pagina tornerà come prima.
+
+E' consigliato  l' utilizzo  del mouse  per avere
+uno spostamento più rapido e deciso.
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU BLOCCHI>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: SCEGLI COLORI
+
+╔═══════════════════╗
+║   SCEGLI COLORI   ║
+╚═══════════════════╝
+
+Per  modificare  il colore  di primo piano e/o di
+sfondo   correnti,   opzione  <<SCEGLI COLORI>>   del
+<<MENU PRINCIPALE>>, basta muoversi con i tasti frec_
+cia (su, giù, ecc.) e premere SPAZIO o RETURN una
+volta che ci si trova sul colore desiderato.
+
+Il colore scelto verrà visualizzato nella zona di
+prova  del  testo.  Per   uscire  dalla  finestra
+scegliere  il  campo ACCETTA  ED ESCI, o  premere
+ESCAPE per annullare.
+
+Nella riga di stato verranno aggiornati il colore
+di sfondo e di primo piano (se modificati).
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<HELP GENERALE>>
+            <<MENU PRINCIPALE>>
+            <<COLORI DESKTOP>>
+            <<MODIFICA COLORI DESKTOP>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: COLORI DESKTOP
+
+╔════════════════════╗
+║   COLORI DESKTOP   ║
+╚════════════════════╝
+
+I colori del programma sono memorizzati in un fi_
+le di  configurazione (<<TIP.CFG>>),  che viene letto
+ogni volta che si digita il comando TIP da DOS (è
+possibile  farlo  anche  selezionando  l' opzione
+LEGGI CONFIGURAZIONE dal <<MENU CONFIGURAZIONE>>).
+
+Per modificare i colori scegliere MODIFICA COLORI
+dal MENU CONFIGURAZIONE (si rimanda all' argomen_
+to MODIFICA COLORI DESKTOP).
+
+Per far si che il programma utilizzi questi nuovi
+colori occorre, prima di uscire,  selezionare dal
+<<MENU CONFIGURAZIONE>>  l'  opzione SALVA CONFIGURA_
+ZIONE, che aggiornerà il file automaticamente.
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<HELP GENERALE>>
+            <<MODIFICA COLORI DESKTOP>>
+            <<SCEGLI COLORI>>
+            <<MENU CONFIGURAZIONE>>
+            <<TIP.CFG>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: MODIFICA COLORI DESKTOP
+
+╔═════════════════════════════╗
+║   MODIFICA COLORI DESKTOP   ║
+╚═════════════════════════════╝
+
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU ASCII>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: MODIFICA VELOCITA'
+
+╔════════════════════════╗
+║   MODIFICA VELOCITA'   ║
+╚════════════════════════╝
+
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU ASCII>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: MODIFICA VELOCITA' MOUSE
+
+╔══════════════════════════════╗
+║   MODIFICA VELOCITA' MOUSE   ║
+╚══════════════════════════════╝
+
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU ASCII>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: MODIFICA OPZIONI SPECIALI
+
+╔═══════════════════════════════╗
+║   MODIFICA OPZIONI SPECIALI   ║
+╚═══════════════════════════════╝
+
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU ASCII>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: IMMISSIONE NOME FILE
+
+╔══════════════════════════╗
+║   IMMISSIONE NOME FILE   ║
+╚══════════════════════════╝
+
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU ASCII>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: IMMISSIONE PERCORSO
+
+╔═════════════════════════╗
+║   IMMISSIONE PERCORSO   ║
+╚═════════════════════════╝
+
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU ASCII>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: SCHERMO DEL PROGRAMMA
+
+╔═══════════════════════════╗
+║   SCHERMO DEL PROGRAMMA   ║
+╚═══════════════════════════╝
+
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU ASCII>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: MUOVI SCHERMO
+
+╔═══════════════════╗
+║   MUOVI SCHERMO   ║
+╚═══════════════════╝
+
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<MENU ASCII>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: INDICE
+
+╔════════════╗
+║   INDICE   ║
+╚════════════╝
+
+
+FINE ARGOMENTO
+
+
+*******************************************************************************
+ARGOMENTO: USARE L'HELP
+
+╔═════════════════════════════════╗
+║   UTILIZZO DELL' HELP ON-LINE   ║
+╚═════════════════════════════════╝
+
+Benvenuti nell' help on-line del programma T.I.P. (Text
+Image Processor).
+Questa è la schermata generale che apparirà in ogni
+momento quando verrà premuto il trasto F1.
+Per scorrere il testo presente in questa finestra è suf_
+ficiente premere uno dei seguenti tasti:
+
+  Su, Sinistra,       movimenti di una riga o di una
+  Giù, Destra         colonna
+  Pagina Su,          una pagina verso l' alto
+  Pagina Giù,         una pagina verso il basso
+  Home,               inizio dell' argomento
+  End,                fine dell' argomento
+  Tab,                parola evidenziata successiva
+  Shift-Tab,          parola evidenziata precedente
+  Return,             accede al nuovo argomento
+  Escape,             esce dall' help
+  <altro tasto>       ricerca rapida della parola
+                      evidenziata
+
+La ricerca rapida consente di trovare un argomento senza
+leggerli tutti; se ad esempio si vuole cercare la parola
+evidenziata 'INDICE', è sufficiente scrivere le lettere
+iniziali che consentono di identificarla, cioè 'I' o 'IN'
+o 'IND' ecc., in quanto può esserci un argomento che ha
+le prime lettere 'IMM' e quindi la sola 'I' non è neces_
+saria.
+
+In quasi tutte le parti del programma è possibile utiliz_
+zare sia la tastiera sia il mouse; i comandi per il mouse
+sono:
+
+  Pulsante sinistro,      esegue un' operazione (se in un
+                          menu o in una scelta sposta
+                          anche l' evidenziatore)
+  Pulsante destro         annulla l' operazione (è equi_
+                          valente al tasto ESCAPE)
+
+La barra laterale è utilizzata come riferimento, per
+sapere il punto in cui ci si trova rispetto all' intero
+testo (le  frecce sopra e sotto servono per lo sposta_
+mento con il mouse).
+
+Oltre ad F1 si possono premere anche altri tasti per
+entrare nell' help:
+
+  Alt-F1,             argomento precedente
+  Ctrl-F1,            help specifico
+  Shift-F1            indice degli argomenti
+
+E' sempre possibile richiamare altre schermate di
+aiuto,  premendo i  tasti F1,  SHIFT-F1, ALT-F1 o
+CTRL-F1.
+
+Vedi anche: <<INDICE>>
+            <<HELP GENERALE>>
+
+FINE ARGOMENTO
