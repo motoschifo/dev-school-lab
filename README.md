@@ -26,6 +26,10 @@ The repository may include:
 - build instructions
 - historical comments and short stories related to the projects
 
+Many of the documents preserved here were **not** formal school assignments. They are personal notes, manuals, tutorials and technical references written while learning programming.
+
+At the time, access to technical information was limited, so documenting what had been learned became part of the learning process itself.
+
 ## Historical Accuracy
 
 Whenever possible, files are preserved in their original form.
@@ -35,6 +39,10 @@ Source code and documentation are intentionally left unchanged, including commen
 Some documents describe technologies that are now obsolete. They are intentionally preserved as part of their original historical context.
 
 Additional notes and explanations are provided separately rather than modifying the original material.
+
+## Note
+
+Some documents are currently available only as temporary exports generated with modern tools. They will gradually be replaced by higher-quality conversions produced from the original DOS applications or virtual machines.
 
 ## License
 
