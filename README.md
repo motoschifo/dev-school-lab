@@ -40,6 +40,12 @@ Some documents describe technologies that are now obsolete. They are intentional
 
 Additional notes and explanations are provided separately rather than modifying the original material.
 
+## Source Encoding
+
+Original source files use the original DOS OEM character encoding.
+The graphical characters indicate CP437 encoding.
+
+
 ## Note
 
 Some documents are currently available only as temporary exports generated with modern tools. They will gradually be replaced by higher-quality conversions produced from the original DOS applications or virtual machines.
