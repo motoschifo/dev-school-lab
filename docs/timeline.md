@@ -26,12 +26,29 @@ The early work focused on understanding how software was built from the ground u
 
 ---
 
+
+## Image Processor Framework (IP)
+*1992–1993*
+
+Development of a modular graphics framework for DOS applications.
+
+Originally conceived as "Image Processor" (IP), the framework was later
+specialized into different applications, including Text Image Processor (TIP)
+for text-mode graphics and Graphic Image Processor (GIP) for bitmap graphics.
+
+The framework included reusable components for user interface handling,
+mouse support, graphics routines, file management and custom controls.
+
+---
+
 ## Text Image Processor (TIP)
 *1992–1993*
 
-A full-screen text-mode editor for ANSI art and text graphics, developed in Turbo Pascal.
+A full-screen text-mode editor for ANSI art and text graphics, developed in
+Turbo Pascal.
 
-The project grew into a complete text-mode application framework, including:
+Over time, the project evolved into a reusable text-mode application
+framework, including:
 
 - custom window management
 - menus and dialog boxes
@@ -40,7 +57,8 @@ The project grew into a complete text-mode application framework, including:
 - file and directory selectors
 - help system integration
 
-The project eventually reached approximately 32,000 lines of source code and became the foundation for several later developments.
+The project eventually reached approximately 32,000 lines of source code and
+became the foundation for several later developments.
 
 ---
 
@@ -49,18 +67,29 @@ The project eventually reached approximately 32,000 lines of source code and bec
 
 A graphical drawing application built on the Borland Graphics Interface (BGI).
 
-Included its own user interface, mouse support, font management and graphics conversion utilities.
+It included its own user interface, mouse support, font management and
+graphics conversion utilities.
 
-GIP represented the transition from text-mode interfaces to graphical environments.
+GIP represented the transition from text-mode interfaces to graphical
+environments.
 
 ---
 
 ## Sprite Manager
 *1992–1993*
 
-Sprite editor and graphics utility for DOS.
+A DOS-based sprite editor and graphics utility developed in Turbo Pascal.
 
-Designed to create, edit and manage graphical resources used by other software projects, including games and graphical applications.
+It included custom mouse support, button controls, pixel-level drawing
+routines, sprite editing, grid management and graphics utilities.
+
+Version 5.0 (April 1993) represents one of the most advanced DOS graphics
+projects of this period.
+
+Sprite Manager was not only a sprite editing tool, but also included its own
+resource management approach, embedding graphics drivers and fonts directly
+into the executable at build time using Borland's BINOBJ utility and BGI
+registration mechanism.
 
 ---
 

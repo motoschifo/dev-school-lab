@@ -30,15 +30,6 @@ Many of the documents preserved here were **not** formal school assignments. The
 
 At the time, access to technical information was limited, so documenting what had been learned became part of the learning process itself.
 
-## Historical Accuracy
-
-Whenever possible, files are preserved in their original form.
-
-Source code and documentation are intentionally left unchanged, including comments, formatting, programming style and, where present, original mistakes or limitations.
-
-Some documents describe technologies that are now obsolete. They are intentionally preserved as part of their original historical context.
-
-Additional notes and explanations are provided separately rather than modifying the original material.
 
 ## File Encoding
 
@@ -48,9 +39,22 @@ The graphical characters indicate CP437 encoding.
 Converted UTF-8 copies are provided separately for easier viewing on modern systems.
 
 
+## Historical Accuracy
+
+Whenever possible, files are preserved in their original form.
+
+Source code and documentation are intentionally left unchanged, including comments, formatting, programming style and, where present, original mistakes or limitations.
+
+The original source files may contain extensive documentation comments, development notes and version histories written during the original development process. These comments are preserved unchanged as part of the historical archive.
+
+Some documents describe technologies that are now obsolete. They are intentionally preserved as part of their original historical context.
+
+Additional notes and explanations are provided separately rather than modifying the original material.
+
+
 ## Note
 
-Some documents are currently available only as temporary exports generated with modern tools. They will gradually be replaced by higher-quality conversions produced from the original DOS applications or virtual machines.
+Some documents are currently available only as temporary exports generated with modern tools. They do not replace the original files and will gradually be replaced by higher-quality conversions produced from the original DOS applications or virtual machines.
 
 ## License
 
